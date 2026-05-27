@@ -1,9 +1,11 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Tuker;Dan;;;
-FN:Dan Tuker
+N:Tucker;Dan;;;
+FN:Dan Tucker
 ORG:Serenity 1 Consulting Group
 TITLE:Field Manager
 TEL;TYPE=CELL,VOICE:(407) 676-8468
+TEL;TYPE=WORK,VOICE:(866) 222-7309
+NOTE:Intake Department: (866) 222-7309
 URL:https://sonecg.com/
 END:VCARD
