@@ -1,71 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dan Tucker - Digital Business Card</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-            padding: 50px 20px;
-            color: #333;
-        }
-        .card {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            max-width: 400px;
-            margin: 0 auto;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        h1 {
-            margin-bottom: 5px;
-            color: #111;
-        }
-        .title {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 15px;
-        }
-        .company {
-            font-weight: bold;
-            color: #003366;
-            margin-bottom: 25px;
-        }
-        .contact-info {
-            text-align: left;
-            display: inline-block;
-            margin-bottom: 25px;
-        }
-        p {
-            margin: 10px 0;
-            font-size: 16px;
-        }
-        a {
-            color: #0066cc;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f2438" />
+  <meta name="description" content="Digital business card for Dan Tucker, Field Manager at Serenity 1 Consulting Group." />
+  <title>Dan Tucker | Serenity 1 Consulting Group</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <main class="page-shell">
+    <section class="card" aria-label="Digital business card">
+      <div class="brand-panel">
+        <img class="logo" src="assets/serenity1-logo.png" alt="Serenity 1 Consulting Group logo" />
+      </div>
 
-    <div class="card">
+      <section class="profile">
+        <p class="eyebrow">Digital Business Card</p>
         <h1>Dan Tucker</h1>
-        <div class="title">Field Manager</div>
-        <div class="company">Serenity 1 Consulting Group</div>
+        <p class="title">Field Manager</p>
+        <p class="company">Serenity 1 Consulting Group</p>
+      </section>
 
-        <div class="contact-info">
-            <p><strong>Cell Phone:</strong> <a href="tel:4076768468">(407) 676-8468</a></p>
-            <p><strong>Intake Department:</strong> <a href="tel:8662227309">(866) 222-7309</a></p>
-            <p><strong>Website:</strong> <a href="https://sonecg.com/" target="_blank">sonecg.com</a></p>
-        </div>
-    </div>
+      <section class="actions" aria-label="Contact actions">
+        <a class="button primary" href="tel:+14076768468">Call Dan</a>
+        <a class="button" href="sms:+14076768468">Text Dan</a>
+        <a class="button" href="tel:+18662227309">Call Intake Department</a>
+        <a class="button" href="contact.vcf" download="Dan-Tucker-Serenity-1.vcf">Save Contact</a>
+        <a class="button" href="https://sonecg.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+        <a class="button" href="https://www.bbb.org/us/ca/san-diego/profile/consultant/serenity-1-llc-1126-1000082862" target="_blank" rel="noopener noreferrer">BBB Reviews</a>
+      </section>
 
+      <footer>
+        <p>Tap, save, and connect.</p>
+      </footer>
+    </section>
+  </main>
 </body>
 </html>
